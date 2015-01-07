@@ -1,0 +1,21 @@
+{
+    "name": "root/awesomeproject",
+    "authors": [
+        {
+            "name": "dilbadil",
+            "email": "abdillah308@gmail.com"
+        }
+    ],
+    "require": {
+    	"respect/validation": "0.6.*",
+        "phpunit/phpunit": "4.4.1"
+    },
+    "autoload": {
+        "files": [
+            "core/helpers.php"
+        ],        
+        "psr-4": {
+            "Core\\": "core"
+        }
+    }
+}
